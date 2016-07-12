@@ -12,7 +12,6 @@ var OpenLogList = React.createClass({
   render: function() {
     var openlogNodes = this.props.data.map(
     function (data) {
-      console.log(data);
       return (
         <Openlog time={data} />
       );
